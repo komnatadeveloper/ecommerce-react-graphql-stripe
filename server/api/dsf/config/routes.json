@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dsfs",
+      "handler": "Dsf.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dsfs/count",
+      "handler": "Dsf.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dsfs/:_id",
+      "handler": "Dsf.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dsfs",
+      "handler": "Dsf.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dsfs/:_id",
+      "handler": "Dsf.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dsfs/:_id",
+      "handler": "Dsf.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

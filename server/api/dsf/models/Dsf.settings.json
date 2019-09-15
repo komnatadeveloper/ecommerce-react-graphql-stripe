@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "dsf",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "sdfsdf": {
+      "type": "string"
+    }
+  }
+}
